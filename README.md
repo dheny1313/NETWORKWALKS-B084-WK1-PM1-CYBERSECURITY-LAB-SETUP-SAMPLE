@@ -70,12 +70,12 @@ VirtualBox was installed as the hypervisor.
 A dedicated NAT Network was created in VirtualBox.
 
 Configuration:
-Network Name: NatNetwork
+Network Name: NatNetwork_Lab1
 IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-![](2-screenshot-network-settings-1.png)
+![](04.vm_adapter.PNG)
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -90,20 +90,14 @@ The Kali Linux virtual machine was downloaded from the official Kali Linux websi
 
 The VM network adapter was configured as follows:
 
-```text
-Adapter 1
-Attached to: NAT Network
-Network:     NatNetwork
-Adapter Type: Intel PRO/1000 MT Desktop
-```
+![](02_nat_network_kali.PNG)
 
 The VM was allocated:
 
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
-A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
+![](01_kali.PNG)
 
 
 
@@ -124,7 +118,7 @@ DNS: 8.8.8.8
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![](4-screenshot-kali-network-settings.png)
+![](03_kali_netwwoork setting.PNG)
 
 ---
 
@@ -135,16 +129,15 @@ After completing the initial configuration, a VirtualBox snapshot was created.
 Example snapshot name:
 
 ```text
-Clean Kali - Network Setup
+clean one - setup
 ```
-
 The snapshot represents the clean baseline of the laboratory.
-
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
-
-
+![](06_sanpshoot.PNG)
 ---
-#Result
+## Result
+kali can open youtube and get internet
+![](05_resuult.PNG)
 
 
 ---
@@ -160,7 +153,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 **Dheny Cahyono**\
 FG
-LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/dheny-cahyono/)
+LinkedIn: [https://www.linkedin.com/in/dheny-cahyono/]
 
 ---
 
