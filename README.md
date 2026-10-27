@@ -133,6 +133,7 @@ clean one - setup
 ```
 The snapshot represents the clean baseline of the laboratory.
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
+
 ![](06_sanpshoot.PNG)
 ---
 ## Result
