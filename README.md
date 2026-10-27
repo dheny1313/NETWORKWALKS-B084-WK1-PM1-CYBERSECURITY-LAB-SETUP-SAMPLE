@@ -144,6 +144,10 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 
 ---
+#Result
+
+
+---
 # 🔗 Tools & Resources
 
 - **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
